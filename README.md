@@ -1,2 +1,12 @@
 # PyBer_Analysis
 Using Python and Pandas to analyze ride share data 
+## Overview of the Analysis 
+The purpose of the new analysis is to visualize the total weekly fares for each specific city type; Rural, Suburban, and Urban for the months of January – April.  Using pandas and python I was able to create new datafames with the specific months and create columns of data with the three city types. The data will be sent to PyBer decision-makers to possibly see if they have the necessary number of resources allocated to the city type with the most rides per week. 
+
+## Results 
+Starting off, as seen in the Total_Fare_Challenge image shown here ![image](https://user-images.githubusercontent.com/100726716/163481712-fe34f976-8c5e-499b-99fe-998fddb0def4.png)
+ you can see that Urban cities have by far the most Fares per month and make the most money from those fares. Suburban cities have the second most fare dollars per month followed by Rural cities with the least fare dollars per month.  As seen in the figure shown here.  ![image](https://user-images.githubusercontent.com/100726716/163481510-ffd506ac-732b-4195-a594-093a48dc601b.png), Urban cities have 1000 more rides than Suburban cities and 1500 more rides than Rural cities. Also, as the figure points out the Total Drivers for Urban is far greater than Suburban  with Rural cities having less than 100 Total Drivers.  Another key difference in the PyBer city data is the fact that the average fare per ride is actually the highest in Rural cities, followed by Suburban and then Urban cities having the cheapest Average Fare. This shows that to make up for the lack of volume in Rural cities, PyBer either charges more or the ride is further for Rural cities than Suburban and Urban. 
+
+## Summary 
+For the first recommendation I would increase the number of drivers in Rural cities in order to try and increase the total fare amount. In rural cities, there are less than 100 total drivers with only 125 total rides. If the number of drivers increases, then we can hope to see a higher volume of total rides, meaning more money going towards the total fares. Secondly, I would recommend increasing the number of drivers in Suburban cities. In comparison to Rural cities, the data suggests that the need for drivers is there, and if we could add more drivers to Suburban cities, than we can have more rides which in turn makes the amount for total fares increase. 
+
